@@ -1,6 +1,10 @@
-﻿# .gitignore
-node_modules
-.next
-.env.local
-.env.development
-.env.production
+# OS / 編輯器
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# Node / 編譯工序
+node_modules/
+dist/
+.vercel
